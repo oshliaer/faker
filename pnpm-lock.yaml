@@ -15,10 +15,10 @@ specifiers:
   '@typescript-eslint/parser': ~5.47.0
   '@vitest/coverage-c8': ~0.26.0
   '@vitest/ui': ~0.26.1
-  '@vueuse/core': ~9.8.2
+  '@vueuse/core': ~9.9.0
   c8: ~7.12.0
   conventional-changelog-cli: ~2.2.2
-  cypress: ~12.1.0
+  cypress: ~12.2.0
   esbuild: ~0.16.10
   eslint: ~8.30.0
   eslint-config-prettier: ~8.5.0
@@ -36,7 +36,7 @@ specifiers:
   react: ~18.2.0
   react-dom: ~18.2.0
   rimraf: ~3.0.2
-  sanitize-html: ~2.8.0
+  sanitize-html: ~2.8.1
   semver: ~7.3.8
   simple-git-hooks: ~2.8.1
   standard-version: ~9.5.0
@@ -45,7 +45,7 @@ specifiers:
   typedoc-plugin-missing-exports: ~1.0.0
   typescript: ~4.9.4
   validator: ~13.7.0
-  vite: ~4.0.2
+  vite: ~4.0.3
   vitepress: 1.0.0-alpha.33
   vitest: ~0.26.1
   vue: ~3.2.45
@@ -65,10 +65,10 @@ devDependencies:
   '@typescript-eslint/parser': 5.47.0_lzzuuodtsqwxnvqeq4g4likcqa
   '@vitest/coverage-c8': 0.26.0_@vitest+ui@0.26.1
   '@vitest/ui': 0.26.1
-  '@vueuse/core': 9.8.2_vue@3.2.45
+  '@vueuse/core': 9.9.0_vue@3.2.45
   c8: 7.12.0
   conventional-changelog-cli: 2.2.2
-  cypress: 12.1.0
+  cypress: 12.2.0
   esbuild: 0.16.10
   eslint: 8.30.0
   eslint-config-prettier: 8.5.0_eslint@8.30.0
@@ -86,7 +86,7 @@ devDependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   rimraf: 3.0.2
-  sanitize-html: 2.8.0
+  sanitize-html: 2.8.1
   semver: 7.3.8
   simple-git-hooks: 2.8.1
   standard-version: 9.5.0
@@ -95,7 +95,7 @@ devDependencies:
   typedoc-plugin-missing-exports: 1.0.0_typedoc@0.23.23
   typescript: 4.9.4
   validator: 13.7.0
-  vite: 4.0.2_@types+node@18.11.17
+  vite: 4.0.3_@types+node@18.11.17
   vitepress: 1.0.0-alpha.33_mij7pvcog5pougihtv6dg26sna
   vitest: 0.26.1_@vitest+ui@0.26.1
   vue: 3.2.45
@@ -1058,14 +1058,14 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-vue/4.0.0_vite@4.0.2+vue@3.2.45:
+  /@vitejs/plugin-vue/4.0.0_vite@4.0.3+vue@3.2.45:
     resolution: {integrity: sha512-e0X4jErIxAB5oLtDqbHvHpJe/uWNkdpYV83AOG2xo2tEVSzCzewgJMtREZM30wXnM5ls90hxiOtAuVU6H5JgbA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.0.2_@types+node@18.11.17
+      vite: 4.0.3_@types+node@18.11.17
       vue: 3.2.45
     dev: true
 
@@ -1183,24 +1183,24 @@ packages:
     resolution: {integrity: sha512-Ewzq5Yhimg7pSztDV+RH1UDKBzmtqieXQlpTVm2AwraoRL/Rks96mvd8Vgi7Lj+h+TH8dv7mXD3FRZR3TUvbSg==}
     dev: true
 
-  /@vueuse/core/9.8.2_vue@3.2.45:
-    resolution: {integrity: sha512-aWiCmcYIpPt7xjuqYiceODEMHchDYthrJ4AqI+FXPZrR23PZOqdiktbUVyQl2kGlR3H4i9UJ/uimQrwhz9UouQ==}
+  /@vueuse/core/9.9.0_vue@3.2.45:
+    resolution: {integrity: sha512-JdDb7TrE0imZnwBhMF4+0PCJqGD3AxzH8S2sfk54P0rqvklK+EAtAR/mPb1HwV/JPujQFQJhghQ190Yq03YpVw==}
     dependencies:
       '@types/web-bluetooth': 0.0.16
-      '@vueuse/metadata': 9.8.2
-      '@vueuse/shared': 9.8.2_vue@3.2.45
+      '@vueuse/metadata': 9.9.0
+      '@vueuse/shared': 9.9.0_vue@3.2.45
       vue-demi: 0.13.11_vue@3.2.45
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
     dev: true
 
-  /@vueuse/metadata/9.8.2:
-    resolution: {integrity: sha512-N4E/BKS+9VsUeD4WLVRU1J2kCOLh+iikBcMtipFcTyL204132vDYHs27zLAVabJYGnhC0dIVGdhg9pbOZiY2TQ==}
+  /@vueuse/metadata/9.9.0:
+    resolution: {integrity: sha512-pgxsUJv/d7IjKpLeB6TthggEsaBwM3ffc5jPrr5TmxAm/fup0mGR5VTzrdA/PSx85tpb+CIvP92D+55qBNc8ag==}
     dev: true
 
-  /@vueuse/shared/9.8.2_vue@3.2.45:
-    resolution: {integrity: sha512-ACjrPQzowd5dnabNJt9EoGVobco9/ENiA5qP53vjiuxndlJYuc/UegwhXC7KdQbPX4F45a50+45K3g1wNqOzmA==}
+  /@vueuse/shared/9.9.0_vue@3.2.45:
+    resolution: {integrity: sha512-+D0XFwHG0T+uaIbCSlROBwm1wzs71B7n3KyDOxnvfEMMHDOzl09rYKwaE2AENmYwYPXfHPbSBRDD2gBVHbvTcg==}
     dependencies:
       vue-demi: 0.13.11_vue@3.2.45
     transitivePeerDependencies:
@@ -1886,8 +1886,8 @@ packages:
     resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==}
     dev: true
 
-  /cypress/12.1.0:
-    resolution: {integrity: sha512-7fz8N84uhN1+ePNDsfQvoWEl4P3/VGKKmAg+bJQFY4onhA37Ys+6oBkGbNdwGeC7n2QqibNVPhk8x3YuQLwzfw==}
+  /cypress/12.2.0:
+    resolution: {integrity: sha512-kvl95ri95KK8mAy++tEU/wUgzAOMiIciZSL97LQvnOinb532m7dGvwN0mDSIGbOd71RREtmT9o4h088RjK5pKw==}
     engines: {node: ^14.0.0 || ^16.0.0 || >=18.0.0}
     hasBin: true
     requiresBuild: true
@@ -4448,8 +4448,8 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: true
 
-  /sanitize-html/2.8.0:
-    resolution: {integrity: sha512-ZsGyc6avnqgvEm3eMKrcy8xa7WM1MrGrfkGsUgQee2CU+vg3PCfNCexXwBDF/6dEPvaQ4k/QqRjnYKHL8xgNjg==}
+  /sanitize-html/2.8.1:
+    resolution: {integrity: sha512-qK5neD0SaMxGwVv5txOYv05huC3o6ZAA4h5+7nJJgWMNFUNRjcjLO6FpwAtKzfKCZ0jrG6xTk6eVFskbvOGblg==}
     dependencies:
       deepmerge: 4.2.2
       escape-string-regexp: 4.0.0
@@ -5130,7 +5130,7 @@ packages:
       pathe: 0.2.0
       source-map: 0.6.1
       source-map-support: 0.5.21
-      vite: 4.0.2_@types+node@18.11.17
+      vite: 4.0.3_@types+node@18.11.17
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -5151,7 +5151,7 @@ packages:
       pathe: 0.2.0
       source-map: 0.6.1
       source-map-support: 0.5.21
-      vite: 4.0.2_@types+node@18.11.17
+      vite: 4.0.3_@types+node@18.11.17
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -5162,8 +5162,8 @@ packages:
       - terser
     dev: true
 
-  /vite/4.0.2_@types+node@18.11.17:
-    resolution: {integrity: sha512-QJaY3R+tFlTagH0exVqbgkkw45B+/bXVBzF2ZD1KB5Z8RiAoiKo60vSUf6/r4c2Vh9jfGBKM4oBI9b4/1ZJYng==}
+  /vite/4.0.3_@types+node@18.11.17:
+    resolution: {integrity: sha512-HvuNv1RdE7deIfQb8mPk51UKjqptO/4RXZ5yXSAvurd5xOckwS/gg8h9Tky3uSbnjYTgUm0hVCet1cyhKd73ZA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -5202,12 +5202,12 @@ packages:
     dependencies:
       '@docsearch/css': 3.3.0
       '@docsearch/js': 3.3.0_4mvbrmqotwuhfzwlcr6w5cftiu
-      '@vitejs/plugin-vue': 4.0.0_vite@4.0.2+vue@3.2.45
+      '@vitejs/plugin-vue': 4.0.0_vite@4.0.3+vue@3.2.45
       '@vue/devtools-api': 6.4.5
-      '@vueuse/core': 9.8.2_vue@3.2.45
+      '@vueuse/core': 9.9.0_vue@3.2.45
       body-scroll-lock: 4.0.0-beta.0
       shiki: 0.12.1
-      vite: 4.0.2_@types+node@18.11.17
+      vite: 4.0.3_@types+node@18.11.17
       vue: 3.2.45
     transitivePeerDependencies:
       - '@algolia/client-search'
@@ -5259,7 +5259,7 @@ packages:
       tinybench: 2.3.1
       tinypool: 0.3.0
       tinyspy: 1.0.2
-      vite: 4.0.2_@types+node@18.11.17
+      vite: 4.0.3_@types+node@18.11.17
       vite-node: 0.26.0_@types+node@18.11.17
     transitivePeerDependencies:
       - less
@@ -5306,7 +5306,7 @@ packages:
       tinybench: 2.3.1
       tinypool: 0.3.0
       tinyspy: 1.0.2
-      vite: 4.0.2_@types+node@18.11.17
+      vite: 4.0.3_@types+node@18.11.17
       vite-node: 0.26.1_@types+node@18.11.17
     transitivePeerDependencies:
       - less
